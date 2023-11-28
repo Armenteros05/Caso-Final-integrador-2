@@ -33,6 +33,7 @@ public:
 };
 std::string Variant::to_string() {
     std::string Variant::to_string(){
+            )
         switch (type) {
             case variant_type::Symbol:
                 return val;
@@ -59,8 +60,8 @@ std::string Variant::to_string() {
             default:
                 return "UnknownType";
         }
-    }
 
+}
     return {};
 }
 
