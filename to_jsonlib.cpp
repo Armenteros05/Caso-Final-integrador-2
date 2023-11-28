@@ -95,7 +95,3 @@ std::string Variant::to_string() {
             return "UnknownType";
     }
 }
-
-int main(){
-
-}

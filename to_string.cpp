@@ -64,7 +64,3 @@ std::string Variant::to_string() {
 }
     return {};
 }
-
-int main(){
-
-}
